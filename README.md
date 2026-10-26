@@ -131,4 +131,3 @@ excluded from the repository.
 6. Test admin login, the existing sections, a research PDF, profile-photo removal, and a private note using an incorrect and then correct password.
 
 **Important:** This package can be syntax-checked, but live operation still depends on your host's database credentials, schema migration, PHP version, upload limits and `.htaccess` support. Never publish your private-note PDFs anywhere outside the protected folder.
-#
