@@ -1,6 +1,7 @@
 # ML Command Center — Portfolio Website
 
-Live Demo --> rayhanchowdhury.unaux.com
+Live demo:
+https://rayhanchowdhury.unaux.com
 
 A full-stack PHP + MySQL portfolio for a Machine Learning Engineer, styled as an
 "AI Operations Dashboard" instead of a normal stacked portfolio.
@@ -118,8 +119,7 @@ UPDATE admin_users SET password_hash = '<paste hash here>' WHERE username = 'adm
 The source code is available at:
 https://github.com/Rayhan043/Portfolio_Website
 
-Live demo:
-https://rayhanchowdhury.unaux.com
+
 
 GitHub stores the source repository but does not run PHP or MySQL. To make the
 portfolio live, deploy these files to a PHP/MySQL host such as XAMPP, shared
