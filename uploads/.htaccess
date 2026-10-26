@@ -1,0 +1,10 @@
+# Allow MP4 files to play in browser
+<FilesMatch "\.(mp4|webm|ogg)$">
+    Header set Access-Control-Allow-Origin "*"
+    Header set Content-Type "video/mp4"
+</FilesMatch>
+
+# Enable CORS for uploads
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+</IfModule>

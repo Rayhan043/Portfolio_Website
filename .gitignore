@@ -1,0 +1,13 @@
+# Local configuration
+config/db.php
+.env
+
+# Private and user-specific uploads
+uploads/private_notes/*
+!uploads/private_notes/.htaccess
+uploads/resume/*
+
+# Runtime/generated files
+*.log
+Thumbs.db
+.DS_Store
